@@ -1,5 +1,4 @@
 import React from 'react'
-import { HILocationMarker } from 'react-icons'
 import './hero.css'
 
 const Hero = () => {
@@ -9,8 +8,6 @@ const Hero = () => {
         {/* left side  */}
         <div className="flexColStart hero-left">
           <div className="hero-title">
-            <div className="orange-circle"></div>
-
             <h1>
               Discover <br /> Most Suitable <br /> Property
             </h1>
@@ -21,9 +18,7 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
-          <div className="search-bar">
-            <HILocationMarker color="var(--blue)" size={25} />
-          </div>
+          <div className="search-bar"></div>
         </div>
         {/* right side  */}
         <div className="flexCenter hero-right">

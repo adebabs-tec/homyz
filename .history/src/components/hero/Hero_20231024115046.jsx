@@ -22,7 +22,7 @@ const Hero = () => {
           </div>
 
           <div className="search-bar">
-            <HILocationMarker color="var(--blue)" size={25} />
+            <HILocationMarker color="var(--" />
           </div>
         </div>
         {/* right side  */}

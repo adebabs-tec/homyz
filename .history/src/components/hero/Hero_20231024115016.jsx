@@ -21,9 +21,7 @@ const Hero = () => {
             <span>Forget all difficulties in finding a residence for you</span>
           </div>
 
-          <div className="search-bar">
-            <HILocationMarker color="var(--blue)" size={25} />
-          </div>
+          <div className="search-bar"></div>
         </div>
         {/* right side  */}
         <div className="flexCenter hero-right">
