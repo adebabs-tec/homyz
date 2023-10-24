@@ -12,13 +12,9 @@ const Hero = () => {
               Discover <br /> Most Suitable <br /> Property
             </h1>
           </div>
-
-          <div className="flexColStart hero-des">
+          <div className="hero-desc">
             <span>Find a variety of properties that suit you very easily</span>
-            <span>Forget all difficulties in finding a residence for you</span>
           </div>
-
-          <div className="search-bar"></div>
         </div>
         {/* right side  */}
         <div className="flexCenter hero-right">
