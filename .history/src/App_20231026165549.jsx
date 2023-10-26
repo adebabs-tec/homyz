@@ -5,8 +5,9 @@ import './App.css'
 function App() {
   return (
     <div className="App">
+      <div className="white-gradient" />
+
       <div>
-        <div className="white-gradient" />
         <Header />
         <Hero />
       </div>
