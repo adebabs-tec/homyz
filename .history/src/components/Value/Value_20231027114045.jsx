@@ -4,7 +4,7 @@ import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
-  //   AccordionItemButton,
+  AccordionItemButton,
   AccordionItemPanel,
   AccordionItemState,
 } from 'react-accessible-accordion'
@@ -39,10 +39,6 @@ const Value = () => {
                 <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
                     <div className="flexCenter icon">{item.icon}</div>
-                    <span className="primaryText">{item.heading}</span>
-                    <div className="flexCenter icon">
-                      <MdOutlineArrowDropDown size={20} />
-                    </div>
                   </AccordionItemHeading>
                 </AccordionItem>
               )

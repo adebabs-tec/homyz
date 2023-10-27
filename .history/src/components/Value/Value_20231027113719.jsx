@@ -4,13 +4,12 @@ import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
-  //   AccordionItemButton,
+  AccordionItemButton,
   AccordionItemPanel,
   AccordionItemState,
 } from 'react-accessible-accordion'
 import 'react-accessible-accordion/dist/fancy-example.css'
 import { MdOutlineArrowDropDown } from 'react-icons/md'
-import data from '../../utils/accordion'
 
 const Value = () => {
   return (
@@ -34,19 +33,7 @@ const Value = () => {
           </span>
 
           <Accordion allowMultipleExpanded={false} preExpanded={[0]}>
-            {data.map((item, i) => {
-              return (
-                <AccordionItem className="accordionItem" key={i} uuid={i}>
-                  <AccordionItemHeading>
-                    <div className="flexCenter icon">{item.icon}</div>
-                    <span className="primaryText">{item.heading}</span>
-                    <div className="flexCenter icon">
-                      <MdOutlineArrowDropDown size={20} />
-                    </div>
-                  </AccordionItemHeading>
-                </AccordionItem>
-              )
-            })}
+            {}
           </Accordion>
         </div>
       </div>

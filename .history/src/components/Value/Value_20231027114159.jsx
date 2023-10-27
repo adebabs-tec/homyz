@@ -4,7 +4,7 @@ import {
   Accordion,
   AccordionItem,
   AccordionItemHeading,
-  //   AccordionItemButton,
+  AccordionItemButton,
   AccordionItemPanel,
   AccordionItemState,
 } from 'react-accessible-accordion'
