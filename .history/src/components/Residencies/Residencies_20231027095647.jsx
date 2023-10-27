@@ -15,7 +15,9 @@ const Residencies = () => {
         </div>
 
         <Swiper {...sliderSettings}>
-          <SliderButtons></SliderButtons>
+          <SliderButtons>
+
+          </SliderButtons>
           {data.map((card, i) => {
             const { name, price, detail, image } = card
             return (
@@ -43,11 +45,7 @@ const Residencies = () => {
 export default Residencies
 
 const SliderButtons = () => {
-  const swiper = useSwiper()
-  return (
-    <div className="r-button">
-      <button onClick={() => swiper.slidePrev}>&lt;</button>
-      <button onClick={() => swiper.slideNext}>&gt;</button>
-    </div>
-  )
+  return <div className="r-button">
+    Buttons
+  </div>
 }
