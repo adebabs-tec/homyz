@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import './Value.css'
 import {
   Accordion,
@@ -35,13 +35,8 @@ const Value = () => {
 
           <Accordion allowMultipleExpanded={false} preExpanded={[0]}>
             {data.map((item, i) => {
-              const [className, setClassName] = useState(null)
               return (
-                <AccordionItem
-                  className={`accordionItem ${className}`}
-                  key={i}
-                  uuid={i}
-                >
+                <AccordionItem className="accordionItem" key={i} uuid={i}>
                   <AccordionItemHeading>
                     <AccordionItemState>
                       {({ expanded }) =>

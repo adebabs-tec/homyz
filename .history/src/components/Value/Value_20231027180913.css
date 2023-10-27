@@ -23,11 +23,6 @@
     margin-bottom: 20px;
 }
 
-.accordionItem.expanded {
-    box-shadow: var(--shadow);
-    border-radius: 6px;
-}
-
 .accordionButton {
     background: white;
     padding: 1rem;
@@ -44,8 +39,4 @@
 
 .icon svg {
     fill: var(--blue);
-}
-
-.accordionButton .primaryText {
-    font-size: 1.1rem;
 }
