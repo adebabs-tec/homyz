@@ -1,8 +1,5 @@
 import React from 'react'
 import './Contact.css'
-import { MdCall } from 'react-icons/md'
-import { BsFillChatDotsFill } from 'react-icons/bs'
-// import {Hi}
 
 const Contact = () => {
   return (
@@ -21,9 +18,7 @@ const Contact = () => {
             <div className="flexColStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
-                  <div className="flexCenter icon">
-                    <MdCall size={25} />
-                  </div>
+                  <d className="flexCenter icon"></d>
                 </div>
               </div>
             </div>
