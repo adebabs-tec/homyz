@@ -3,7 +3,7 @@ import Hero from './components/Hero/Hero'
 import './App.css'
 import Companies from './components/Companies/Companies'
 import Residencies from './components/Residencies/Residencies'
-import ValueComp from './components/ValueComponent/ValueComp'
+import ValueComp from './components/Value/ValueComp'
 import Contact from './components/Contact/Contact'
 
 function App() {
