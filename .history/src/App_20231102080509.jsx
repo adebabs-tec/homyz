@@ -3,7 +3,7 @@ import Hero from './components/Hero/Hero'
 import './App.css'
 import Companies from './components/Companies/Companies'
 import Residencies from './components/Residencies/Residencies'
-import Value from './components/Value/Value'
+import ValueComp from './components/ValueComponent/ValueComp'
 import Contact from './components/Contact/Contact'
 
 function App() {
@@ -16,7 +16,7 @@ function App() {
       </div>
       <Companies />
       <Residencies />
-      <Value />
+      <ValueComp />
       <Contact />
     </div>
   )

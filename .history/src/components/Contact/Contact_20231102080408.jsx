@@ -4,7 +4,7 @@ import { MdCall } from 'react-icons/md'
 
 const Contact = () => {
   return (
-    <section className="c-wrapper">
+    <Selection className="c-wrapper">
       <div className="flexCenter innerWidth paddings c-container">
         {/* left side  */}
         <div className="flexColStart c-left">
@@ -35,7 +35,7 @@ const Contact = () => {
           </div>
         </div>
       </div>
-    </section>
+    </Selection>
   )
 }
 

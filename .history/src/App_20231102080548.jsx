@@ -16,7 +16,7 @@ function App() {
       </div>
       <Companies />
       <Residencies />
-      <Value />
+      <ValueComp />
       <Contact />
     </div>
   )
