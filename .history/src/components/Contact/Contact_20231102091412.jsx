@@ -18,7 +18,7 @@ const Contact = () => {
           </span>
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexStart row">
+            <div className="flexColStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">

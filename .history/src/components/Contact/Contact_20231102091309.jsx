@@ -18,7 +18,7 @@ const Contact = () => {
           </span>
           <div className="flexColStart contactModes">
             {/* first row */}
-            <div className="flexStart row">
+            <div className="flexColStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -45,7 +45,7 @@ const Contact = () => {
               </div>
             </div>
             {/* second row */}
-            <div className="flexStart row">
+            <div className="flexColStart row">
               <div className="flexColCenter mode">
                 <div className="flexStart">
                   <div className="flexCenter icon">
@@ -68,7 +68,7 @@ const Contact = () => {
                     <span className="secondaryText">021 123 145 14</span>
                   </div>
                 </div>
-                <div className="flexCenter button">Message Now</div>
+                <div className="flexCenter button">Chat Now</div>
               </div>
             </div>
           </div>
