@@ -1,8 +1,8 @@
 import React from 'react'
 import './Contact.css'
 import { MdCall } from 'react-icons/md'
-// import { BsFillChatDotFill } from 'react-icons/bs'
-// import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
+import { BsFillChatDotFill } from 'react-icons/bs'
+import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
 
 const Contact = () => {
   return (

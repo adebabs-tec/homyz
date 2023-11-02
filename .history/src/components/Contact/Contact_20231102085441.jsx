@@ -29,7 +29,7 @@ const Contact = () => {
                     <span>C021 123 145 14</span>
                   </div>
                 </div>
-                <div className="flexCenter buttons">Call Now</div>
+                <div className="flexCenter button">Call Now</div>
               </div>
             </div>
             {/* second row */}

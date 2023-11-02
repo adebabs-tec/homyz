@@ -1,8 +1,6 @@
 import React from 'react'
 import './Contact.css'
 import { MdCall } from 'react-icons/md'
-// import { BsFillChatDotFill } from 'react-icons/bs'
-// import { HiChatBubbleBottomCenter } from 'react-icons/hi2'
 
 const Contact = () => {
   return (
@@ -24,12 +22,7 @@ const Contact = () => {
                   <div className="flexCenter icon">
                     <MdCall size={25} />
                   </div>
-                  <div className="flexColStart detail">
-                    <span>Call</span>
-                    <span>C021 123 145 14</span>
-                  </div>
                 </div>
-                <div className="flexCenter buttons">Call Now</div>
               </div>
             </div>
             {/* second row */}
