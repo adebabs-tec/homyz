@@ -71,11 +71,4 @@
     .contactModes {
         width: 100%;
     }
-    .row {
-        flex-direction: column;
-        width: 100%;
-    }
-    .mode {
-        width: 100%;
-    }
 }
