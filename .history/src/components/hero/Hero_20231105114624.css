@@ -83,7 +83,7 @@
 }
 
 @media (max-width: 640px) {
-    .hero-container {
+    .image-container {
         margin-top: 2rem;
     }
 }

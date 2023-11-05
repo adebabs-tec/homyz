@@ -82,8 +82,9 @@
     height: 100%;
 }
 
-@media (max-width: 640px) {
+
+/* @media (max-width: 640px) {
     .hero-container {
         margin-top: 2rem;
     }
-}
+} */
