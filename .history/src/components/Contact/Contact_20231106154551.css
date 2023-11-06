@@ -69,7 +69,7 @@
         justify-content: center;
     }
     .contactModes {
-        /* flex-direction: column; */
+        flex-direction: column;
         width: 100%;
     }
     .row {

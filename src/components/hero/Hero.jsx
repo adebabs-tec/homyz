@@ -1,6 +1,6 @@
 import React from 'react'
 import { HiLocationMarker } from 'react-icons/hi'
-import './hero.css'
+import './Hero.css'
 import CountUp from 'react-countup'
 
 const Hero = () => {
